@@ -1,0 +1,13 @@
+#Python 3.7.9
+ISR
+numpy
+pytesseract
+regex
+PIL
+pdf2image
+img2pdf
+PyPDF2
+tifftools
+tk-tools
+opencv-python
+poppler-utils
