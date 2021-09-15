@@ -1,6 +1,7 @@
 
 
 # Aadhaar-UID-Masking-Tool
+![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg) 
 
 This project provides, Support of Extraction, Veriﬁcation and Masking of Aadhaar UIDs from photos and scanned documents. The solution to the problem involves use of PyTesseract Optical Character Recognition engine and OpenCV for image processing. 
 
@@ -39,6 +40,17 @@ In the last step it will save the Masked Copy in the project folder itself.
    - The language is different in Aadhaar in different
    regions and this is a very critical problem, but our model can also
    recognize different languages easily.
+   
+# Algorithms Used
+In our solution pipeline we use some algorithms such as:
+
+**1.Verhoeff Algorithm:** Aadhaar UID is a 12-digit number in which the last digit is a checksum digit
+calculated using this algorithm. It utilizes some tables (multiplication, inverse and permutation) for
+calculating the checksum bit. For validating, the same tables are used.
+
+**2.ESRGANs:** Enhanced Super-Resolution Generative Adversarial Networks are capable of
+generating realistic textures during single image super-resolution. It achieves better visual quality
+with more realistic and natural textures than the original picture.
 
 # Installation
 **Note:** Because of some dependencies issues with Tensorflow 2.0, We have used Python 3.7.9, This project is perfectly working on Windows machines but causing some issues with Linux based systems.
