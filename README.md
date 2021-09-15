@@ -13,9 +13,21 @@ personal and financial information can be preserved so that frauds can be reduce
 So we aimed to build a **CNN** model to mask the partial **UID (Unique Identification)** of the aadhaar irrespective of the format and orientation of aadhaar provided. This model achieved an accuracy of 94.6 % for both training as well as validation.
 
 ## Example
+![Sample Image](Img/2021-07-14_16-48.png)
 
 # Snapshots
 **Note:** For testing purposes we have used a publically available Aadhaar Sample. Which is available on (uidai.gov.in), We have not harmed anyone's privacy.
+
+![Home Screen Of the App](Img/Capture2.PNG)
+
+- Taken this sample aadhar for the testing.
+![Unmasked Aadhar](Img/Aadhaar_letter_large.png)
+
+App window will show the all available UID in the Aadhar
+![Final Result](Img/finaloutput)
+
+In the last step it will save the Masked Copy in the project folder itself.
+![Masked Aadhar](Img/Aadhaar_letter_large_masked.png)
 
 # Main Features
 
