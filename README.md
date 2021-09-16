@@ -21,7 +21,7 @@ So we aimed to build a **CNN** model to mask the partial **UID (Unique Identific
 
 ![Home Screen Of the App](Img/Capture2.PNG)
 
-- Taken this sample aadhar for the testing.
+## Taken this sample aadhar for the testing.
 ![Unmasked Aadhar](Img/Aadhaar_letter_large.png)
 
 App window will show the all available UID in the Aadhar
